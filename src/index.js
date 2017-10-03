@@ -1,1 +1,3 @@
-document.getElementById('text').innerHTML = 'hello world!';
+import mvc from './MVC';
+
+mvc.init();
