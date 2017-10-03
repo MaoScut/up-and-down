@@ -38,7 +38,9 @@ function Controller() {
   let view = null;
   let model = null;
   this.up = function() {
+    // 修改数据
     model.up();
+    // 通知视图
     model.broadcast();
   };
   this.down = function() {
@@ -48,6 +50,7 @@ function Controller() {
   this.init = function() {
     view = new View(this);
     model = new Model();
+    // 把视图注册到model中
     model.subscribe(view);
   }
 }
