@@ -1,3 +1,4 @@
 import mvc from './MVC';
-
-mvc.init();
+import mvp from './MVP';
+// mvc.init();
+mvp.init();
