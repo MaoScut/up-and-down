@@ -1,0 +1,26 @@
+{
+  "name": "up-and-down",
+  "version": "1.0.0",
+  "description": "a simple project to research and compare mvc, mvp, mvvm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaoScut/up-and-down.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaoScut/up-and-down/issues"
+  },
+  "homepage": "https://github.com/MaoScut/up-and-down#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
